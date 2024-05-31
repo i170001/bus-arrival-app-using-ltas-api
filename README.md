@@ -1,5 +1,7 @@
 # Bus Arrival App Using LTA's API
 
+ This React project leverages LTA's API to provide users with real-time information about bus arrivals, crowd levels, and more.
+
 ## Features
 
 - **Bus Stop Search:** Easily find bus stops and retrieve detailed information about bus services, crowd levels, bus types, and upcoming bus timings.
