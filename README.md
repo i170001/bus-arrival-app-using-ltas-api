@@ -10,7 +10,14 @@
 
 ## Screenshots
 
-[Add screenshots here]
+![The default landing screen](temp-1.png)
+*The default landing screen*
+
+![Searching for a bus stop](temp-2.png)
+*Searching for a bus stop*
+
+![Favourited bus stops page](temp-3.png)
+*Favourited bus stops page*
 
 ## Project Layout
 ```mermaid
