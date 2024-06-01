@@ -12,6 +12,15 @@
 
 [Add screenshots here]
 
+## Project Layout
+```mermaid
+graph TD
+  A[App] --> B[SearchBar]
+  A --> C[Favourites]
+  A --> D[BusDataContainer]
+  D --> E[BusCard]
+  C --> F[FavBusCard]
+
 ## Technologies Used
 
 - React
