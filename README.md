@@ -19,7 +19,8 @@ graph TD
   A --> C[Favourites]
   A --> D[BusDataContainer]
   D --> E[BusCard]
-  C --> F[FavBusCard]
+  C --> F[FavBusCard
+  ```
 
 ## Technologies Used
 
