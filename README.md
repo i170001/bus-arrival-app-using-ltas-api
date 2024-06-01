@@ -15,11 +15,14 @@
 ## Project Layout
 ```mermaid
 graph TD
-  A[App] --> B[SearchBar]
-  A --> C[Favourites]
-  A --> D[BusDataContainer]
-  D --> E[BusCard]
-  C --> F[FavBusCard]
+  A[main.jsx] --> B[App.jsx]
+  B --> C[Header]
+  B --> D[Homepage]
+  B --> E[Favourites]
+  D --> F[SearchBar]
+  D --> G[BusDataContainer]
+  E --> H[FavBusCard]
+  G --> I[BusCard]
   ```
 
 ## Technologies Used
