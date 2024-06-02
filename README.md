@@ -5,7 +5,7 @@
 ## Features
 
 - **Bus Stop Search:** Easily find bus stops and retrieve detailed information about bus services, crowd levels, bus types, and upcoming bus timings.
-- **Route Planning:** Save your favorite searches and curate a personalized route or journey for your daily commute or city exploration.
+- **Route Planning:** Save your favourite searches and curate a personalized route or journey for your daily commute or city exploration.
 - **Real-time Updates:** Get up-to-date information straight from LTA's API, ensuring accuracy and reliability in your travel plans.
 
 ## Screenshots
@@ -37,14 +37,14 @@ graph TD
 - React
 - Chakra UI
 - LTA DataMall API
+- Airtable API
 
 ## Next Steps
 
-- Map embeds, allowing users to search for bus stops visually
-- Expand search function to include long. and lat. data
+- Map embeds, allowing users to search for bus stops visually.
+- Expand search function to include latitude and longitude data.
 - Implement user authentication for saving personalized routes.
 - Improve UI/UX for a more intuitive user experience.
-- Expand functionality to include additional features such as fare information and nearby attractions.
 - Optimize performance for faster loading times.
 - Conduct thorough testing to ensure reliability and stability.
 
@@ -59,6 +59,6 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-- Thanks to Waihon from the GA instructional team for their advice and guidance.
+- Thanks to Waihon from the GA instructional team for his advice and guidance.
 - Thanks to Stack Overflow for helping solve several tricky bugs.
 - Thanks to ChatGPT for creating this template.
