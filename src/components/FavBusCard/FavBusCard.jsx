@@ -46,7 +46,7 @@ function FavBusCard({ record, onDelete, records, setRecords }) {
       const url = `https://api.airtable.com/v0/apptpfN3Y7IgW62Q8/favourites/${record.id}`;
       const config = {
         headers: {
-          'Authorization': 'Bearer patsD57VRN9C0UYIZ.aeb281474b41ced52688d5d4f183b5c2858349e6c91a9158f92425b886a0f392'
+          'Authorization': `Bearer ${process.env.REACT_APP_AIRTABLE_API_TOKEN}`
         }
       };
       await axios.delete(url, config);
@@ -75,7 +75,7 @@ function FavBusCard({ record, onDelete, records, setRecords }) {
       };
       const config = {
         headers: {
-          'Authorization': `Bearer ${process.env.REACT_APP_AIRTABLE_API_KEY}`,
+          'Authorization': `Bearer ${process.env.REACT_APP_AIRTABLE_API_TOKEN}`,
           'Content-Type': 'application/json'
         }
       };
