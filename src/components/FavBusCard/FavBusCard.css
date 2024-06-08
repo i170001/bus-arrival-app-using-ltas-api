@@ -1,0 +1,15 @@
+.fav-bus-card {
+    border-radius: 4px;
+    margin: 16px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+    background-color: var(--color3);
+    color: black;
+    width: 260px;
+    box-sizing: border-box;
+    color: #264653;
+}
+
+.fav-bus-card h2 {
+    font-size: 1rem;
+    font-weight: bold;
+}

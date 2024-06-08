@@ -1,0 +1,39 @@
+.bus-card {
+  --color1: #264653;
+  --color2: #2A9D8F;
+  --color3: #E9C46A;
+  --color4: #F4A261;
+  --color5: #E76F51;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid #000000;
+    background-color: var(--color3);
+    border-radius: 4px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  }
+  
+  .bus-card h2 {
+    background-color: #dcb85f;
+    padding: 10px;
+    width: 118px;
+    text-align: center;
+  }
+  
+  .bus-card p {
+    margin: 0 0 5px;
+  }
+  
+  .bus-info, .bus-timings {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .bus-info p {
+    margin-left: 20px;
+  }

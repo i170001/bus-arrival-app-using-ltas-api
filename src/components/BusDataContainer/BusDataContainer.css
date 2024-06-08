@@ -1,0 +1,29 @@
+.container {
+  --color1: #264653;
+  --color2: #2A9D8F;
+  --color3: #E9C46A;
+  --color4: #F4A261;
+  --color5: #E76F51;
+  width: 75vw;
+  margin: 0 auto;
+  background-color: var(--color4);
+  color: var(--color1);
+  padding-bottom: 1px;
+}
+
+.container-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--color5);
+  color: var(--color1);
+  padding: 10px;
+}
+
+.icons {
+  margin-left: auto;
+}
+
+h2 {
+  font-size: larger;
+}
