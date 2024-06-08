@@ -15,13 +15,13 @@ function BusCard({ bus }) {
     let icons;
     switch (load) {
       case 'SEA':
-        icons = [<IoIosMan key={1} size="1.1em" />];
+        icons = [<IoIosMan key={1} size="1.0em" />];
         break;
       case 'SDA':
-        icons = [<IoIosMan key={1} size="1.1em" />, <IoIosMan key={2} size="1.1em" />];
+        icons = [<IoIosMan key={1} size="1.0em" />, <IoIosMan key={2} size="1.0em" />];
         break;
       case 'LSD':
-        icons = [<IoIosMan key={1} size="1.1em" />, <IoIosMan key={2} size="1.1em" />, <IoIosMan key={3} size="2em" />];
+        icons = [<IoIosMan key={1} size="1.0em" />, <IoIosMan key={2} size="1.0em" />, <IoIosMan key={3} size="2em" />];
         break;
       default:
         icons = [];

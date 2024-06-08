@@ -25,7 +25,7 @@ export const SearchTermProvider = ({ children }) => {
     
     try {
       const response = await fetch(
-        `https://datamall2.mytransport.sg/ltaodataservice/BusArrivalv2?BusStopCode=${term}`,
+        `https://bus-arrival-app-using-ltas-api.onrender.com/api/BusArrivalv2?BusStopCode=${term}`,
         {
           method: "GET",
           headers: {
@@ -34,18 +34,6 @@ export const SearchTermProvider = ({ children }) => {
           }
         }
       );
-    
-    // try {
-    //   const response = await fetch(
-    //     `/api/BusArrivalv2?BusStopCode=${term}`,
-    //     {
-    //       method: "GET",
-    //       headers: {
-    //         "AccountKey": `${process.env.REACT_APP_LTA_API_KEY}`,
-    //         "accept": "application/json"
-    //       }
-    //     }
-    //   );
     
       const jsonData = await response.json();
       setBusData(jsonData);
