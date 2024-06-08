@@ -25,7 +25,7 @@ function BusDataContainer({ busData, fetchBusData }) {
     };
     const config = {
       headers: {
-        'Authorization': `Bearer ${process.env.REACT_APP_AIRTABLE_API_KEY}`,
+        'Authorization': `Bearer ${import.meta.env.VITE_APP_AIRTABLE_API_TOKEN}`,
         'Content-Type': 'application/json'
       }
     };

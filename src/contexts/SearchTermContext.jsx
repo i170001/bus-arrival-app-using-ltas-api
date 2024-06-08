@@ -29,7 +29,7 @@ export const SearchTermProvider = ({ children }) => {
         {
           method: "GET",
           headers: {
-            "AccountKey": `${process.env.REACT_APP_LTA_API_KEY}`,
+            "AccountKey": `${import.meta.env.VITE_APP_LTA_API_KEY}`,
             "accept": "application/json"
           }
         }
