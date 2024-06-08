@@ -3,12 +3,13 @@ import ReactDOM from 'react-dom/client'
 import { extendTheme, ChakraProvider } from "@chakra-ui/react"
 import App from './App.jsx'
 import './index.css'
+import './fonts/fonts.css'
 
 const theme = extendTheme({
   styles: {
     global: {
       body: {
-        fontFamily: "'Comic Sans MS', cursive, sans-serif",
+        fontFamily: "'Caveat', cursive, sans-serif",
       },
     },
   },

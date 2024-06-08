@@ -25,7 +25,7 @@ export const SearchTermProvider = ({ children }) => {
     
     try {
       const response = await fetch(
-        `http://datamall2.mytransport.sg/ltaodataservice/BusArrivalv2?BusStopCode=${term}`,
+        `https://datamall2.mytransport.sg/ltaodataservice/BusArrivalv2?BusStopCode=${term}`,
         {
           method: "GET",
           headers: {
