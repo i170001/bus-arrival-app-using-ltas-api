@@ -25,7 +25,7 @@ export const SearchTermProvider = ({ children }) => {
     
     try {
       const response = await fetch(
-        `https://bus-arrival-app-using-ltas-api.onrender.com/api/BusArrivalv2?BusStopCode=${term}`,
+        `https://bus-arrival-app-using-ltas-api.onrender.com:10000/api/BusArrivalv2?BusStopCode=${term}`,
         {
           method: "GET",
           headers: {
