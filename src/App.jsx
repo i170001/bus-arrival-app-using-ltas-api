@@ -33,11 +33,17 @@ function Homepage() {
   const { searchTerm, fetchBusData, busData, isLoading, error } = useContext(SearchTermContext);
 
   return (
-    <div className="centered-horizontal, BusDataContainer">
+    <div className="centered-horizontal BusDataContainer">
       <SearchBar fetchBusData={fetchBusData} />
       {error && <div>{error}</div>}
       {isLoading ? (
-        <Spinner />
+        <Spinner
+          thickness="4px"
+          speed="0.65s"
+          emptyColor="gray.200"
+          color="blue.500"
+          size="lg"
+        />
       ) : (
         <BusDataContainer key={searchTerm} busData={busData} fetchBusData={fetchBusData} />
       )}
