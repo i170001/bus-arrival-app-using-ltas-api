@@ -25,14 +25,7 @@ export const SearchTermProvider = ({ children }) => {
     
     try {
       const response = await fetch(
-        `https://bus-arrival-app-using-ltas-api.onrender.com:10000/api/BusArrivalv2?BusStopCode=${term}`,
-        {
-          method: "GET",
-          headers: {
-            "AccountKey": `${import.meta.env.VITE_APP_LTA_API_KEY}`,
-            "accept": "application/json"
-          }
-        }
+        `https://bus-arrival-app-using-ltas-api-server.onrender.com/api/BusArrivalv2?BusStopCode=${term}`
       );
     
       const jsonData = await response.json();

@@ -9,7 +9,7 @@ const theme = extendTheme({
   styles: {
     global: {
       body: {
-        fontFamily: "'Caveat', cursive, sans-serif",
+        fontFamily: "comic-sans-ms, sans-serif",
       },
     },
   },
